@@ -2,3 +2,23 @@ header nav{
     background-color: #6EB3D0;
     
 }
+
+.bg-bluePersonal{
+
+    background-color: #6EB3D0;
+    text-align: center;
+}
+
+.bg-bluePersonal :hover{
+    background-color: #00adf7;
+    color: white;
+}
+
+.btn-pink{
+    background-color: #F7B6D2;
+    color: white;
+}
+
+#adote{
+    color: #F7B6D2;
+}

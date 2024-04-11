@@ -107,22 +107,16 @@
       </section>
      
       <section id="catalogo">
-        
-      </section>
-
-        </main>
-
-    <footer>
-      
-      <!-- modais comeco div --> <div id="modais" class="d-flex gap-3 align-intens-center">
+        <h2 class=" text-warning d-flex justify-content-center m-5" >Catálogo de produtos</h2>
+              <!-- modais comeco div --> <div id="modais" class="d-flex gap-3 justify-content-center">  
         <!-- modal coleira -->
         <div class="card" style="width: 18rem;">
-          <img src="images/products/productImage.png" class="card-img-top" alt="...">
+          <img src="images/products/productImage.png" class="card-img-top" alt="">
           <div class="card-body">
-            <h5 class="card-title">Peitoral H NeoproTidal</h5>
+            <h5 class=" text-warning card-title">Peitoral H NeoproTidal</h5>
             <p class="card-text">O peitoral para cachorros H NeoPro é resistente à água, feito de borracha PVC.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtoColeira">
-              Peitoral H NeoproTidal
+            <button type="button" class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#produtoColeira">
+              Ver Mais
             </button>
           </div>
         </div>
@@ -153,11 +147,11 @@
       <div class="card" style="width: 18rem;">
         <img src="images/products/productImage2.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Patê natural</h5>
+          <h5 class=" text-warning card-title">Patê natural</h5>
           <p class="card-text">
             Patê Selections For Pets para cachorros Sabor Carne 280 g</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtoPate">
-            Patê Selections Natural
+          <button type="button" class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#produtoPate">
+           Ver Mais
           </button>
         </div>
       </div>
@@ -187,10 +181,10 @@
 <div class="card" style="width: 18rem;">
   <img src="images/products/productImage3.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Disco de brinquedo</h5>
+    <h5 class=" text-warning card-title">Disco de brinquedo</h5>
     <p class="card-text"> Brinquedo Disco Ferplast para Cães e Gatos Vermelho</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtoDisco">
-      Disco de brinquedo
+    <button type="button" class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#produtoDisco">
+      Ver Mais
     </button>
   </div>
 </div>
@@ -231,14 +225,16 @@
 </div>
 <!-- modal fim Disco de brinquedo -->
      
+
+<!-- modal inicio casa -->
      <div class="card" style="width: 18rem;">
       <img src="images/products/productImage4.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Casinha de Madeira</h5>
+        <h5 class=" text-warning card-title">Casinha de Madeira</h5>
         <p class="card-text">
           Casa Chalesco madeira para Cães - Cores Sortidas</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtoCasa">
-          Casinha de Madeira
+        <button type="button" class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#produtoCasa">
+          Ver Mais
         </button>
       </div>
     </div>
@@ -250,7 +246,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <img class="w-100" src="images/products/productImage2.png" alt="image do produto">
+            <img class="w-100" src="images/products/productImage4.png" alt="image do produto">
               <p> <b>Descrições</b> 
                 <br>
                 - Indicada para cães;
@@ -278,9 +274,46 @@
       </div>
     </div>
 
+<!-- modal fim casa -->
+
     <!-- modais fim div --> </div> 
-  
-  
+        
+      </section>
+
+      <section id="formulario">
+        <h2 id="adote" class="d-flex justify-content-center my-5" >ADOTE UM PET</h2>
+        <div class=" p-0 container-fluid row" id="formularioConteudo">
+          <aside class="col-6 d-flex justify-content-center align-items-center" >
+            <form class=" w-75">
+              <div class="mb-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" placeholder="Insira seu E-mail:" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nós não divulgamos seu E-mail.</div>
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone para contato:</label>
+                <input type="tel" placeholder="Insira seu telefone:" class="form-control" id="telefone">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Aceita receber notificações?</label>
+              </div>
+              <button type="submit" class="btn bg-bluePersonal">ENVIAR</button>
+            </form>
+          </aside>
+          <aside class="col-6">
+            <img class="w-100" src="images/imgBanner.png" alt="">
+
+          </aside>
+
+        </div>
+      </section>
+
+        </main>
+
+    <footer class=" container-fluid bg-bluePersonal py-3">
+      <p>Todos os direitod reservados a @PawShop 2024</p>
+
     </div>
     </footer>
 
